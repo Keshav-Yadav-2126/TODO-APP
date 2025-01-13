@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.wrapper{
+    height: auto;
+    width: 350px;
+    padding: 20px;
+}
+
+.input-fields input{
+    height: 40px;
+    background: none;
+    background-color: #ebebeb;
+    padding: 0px 8px;
+    color: black;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}

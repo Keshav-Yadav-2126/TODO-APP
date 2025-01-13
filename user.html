@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USER FORM</title>
+    <link rel="stylesheet" href="./css/user.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="wrapper flex flex-col gap-10 bg-blue-600 text-white items-center justify-center rounded">
+        <h1 class="text-3xl tracking-wider">WELCOME</h1>
+        <div class="input-fields flex flex-col w-full gap-5">
+            <input class="email" id="email" type="email" required placeholder="Email ID">
+            <input class="pwd" id="password" type="password" required placeholder="Password">
+        </div>
+        <button class="btn bg-red-500 w-full h-10 font-bold tracking-wider rounded">SIGN UP</button>
+    </div>
+
+    <script type="module" src="./scripts/user/controllers/controller.js"></script>
+</body>
+</html>
